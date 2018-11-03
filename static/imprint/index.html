@@ -45,10 +45,6 @@
                 <li class="nav-item ">
                     <a class="nav-link" href="/">About Me</a>
                 </li>
-                 
-                <li class="nav-item ">
-                    <a class="nav-link" href="/static/imprint">Imprint</a>
-                </li>
                 
             </ul>
         </div>
@@ -70,6 +66,16 @@
             </div>
 			<div class="article-post">
 				
+
+<!-- Page removed from menue 
+To add back do 
+[[menu.main]]
+    name = "Imprint"
+    identifier = "imprint"
+    weight = 200
+    url = "/static/imprint"
+
+in config.toml -->
 
 <h1 id="imprint">Imprint</h1>
 
@@ -116,7 +122,9 @@
             <div class="col-md-6 col-sm-6 text-center text-lg-left">
                 &copy; Copyright techmuses - All rights reserved
             </div>
-            
+            <div class="col-md-6 col-sm-6 text-center text-lg-right">    
+              Made with <span class="madewithlove">♥</span> by team techmuses
+            </div>
         </div>
     </div>
 </footer>

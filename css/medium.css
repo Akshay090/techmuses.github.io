@@ -644,3 +644,9 @@ iframe {
 .card .img-fluid {
    width:100%;
 }
+
+.madewithlove {
+    color: #ec1625;
+    font-size: 1.3em;
+    line-height: 0;
+}

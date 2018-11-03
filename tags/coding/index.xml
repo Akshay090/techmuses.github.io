@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Coding on techmuses</title>
+    <link>https://techmuses.github.io/tags/coding/</link>
+    <description>Recent content in Coding on techmuses</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>techmuses - All rights reserved</copyright>
+    <lastBuildDate>Thu, 11 Oct 2018 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://techmuses.github.io/tags/coding/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Ninth</title>
+      <link>https://techmuses.github.io/blog/ninth/</link>
+      <pubDate>Thu, 11 Oct 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://techmuses.github.io/blog/ninth/</guid>
+      <description>This is another post wwwwwddddddddddddddd ddddddddddddddd ddddddddddwwwwwwwwwwe eeeeeeeeeeeeeeee eeeeeeeeeeeee eeeeeeeeeeeeeee kkkkkkkkkkk kkkkkkkkkk kkkkkkkkkkkkkkkk kkkkkkkkkkkkkkkkkwwwwwwwwwwwwVivamus gravida venenatis porttitor. Phasellus aliquet nibh vel accumsan malesuada. Nulla nibh enim, auctor nec rhoncus a, pulvinar at tortor.</description>
+    </item>
+    
+  </channel>
+</rss>
