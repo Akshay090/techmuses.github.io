@@ -6,7 +6,7 @@
 	
 	<link rel="icon" href="/images/logo.png">
 	
-	<title>Taking Control with Switch Statement | techmuses</title>
+	<title>Lets Take Jump With Goto Statement | techmuses</title>
 	
 	
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
@@ -71,25 +71,25 @@
     <p>Share</p>
     <ul>
         <li class="ml-1 mr-1">
-        <a target="_blank" href="https://twitter.com/intent/tweet?text=Taking%20Control%20with%20Switch%20Statement&url=https%3a%2f%2ftechmuses.github.io%2fblog%2fswitch%2f" onclick="window.open(this.href, 'twitter-share', 'width=550,height=435');return false;">
+        <a target="_blank" href="https://twitter.com/intent/tweet?text=Lets%20Take%20Jump%20With%20Goto%20Statement&url=https%3a%2f%2ftechmuses.github.io%2fblog%2fgoto%2f" onclick="window.open(this.href, 'twitter-share', 'width=550,height=435');return false;">
         <i class="fab fa-twitter"></i>
         </a>
         </li>
         
         <li class="ml-1 mr-1">
-        <a target="_blank" href="https://facebook.com/sharer.php?u=https%3a%2f%2ftechmuses.github.io%2fblog%2fswitch%2f" onclick="window.open(this.href, 'facebook-share', 'width=550,height=435');return false;">
+        <a target="_blank" href="https://facebook.com/sharer.php?u=https%3a%2f%2ftechmuses.github.io%2fblog%2fgoto%2f" onclick="window.open(this.href, 'facebook-share', 'width=550,height=435');return false;">
         <i class="fab fa-facebook-f"></i>
         </a>
         </li>
         
         <li class="ml-1 mr-1">
-        <a target="_blank" href="https://plus.google.com/share?url=https%3a%2f%2ftechmuses.github.io%2fblog%2fswitch%2f" onclick="window.open(this.href, 'google-share', 'width=550,height=435');return false;">
+        <a target="_blank" href="https://plus.google.com/share?url=https%3a%2f%2ftechmuses.github.io%2fblog%2fgoto%2f" onclick="window.open(this.href, 'google-share', 'width=550,height=435');return false;">
         <i class="fab fa-google"></i>
         </a>
         </li>
 
         <li class="ml-1 mr-1">
-        <a target="_blank" href="https://www.xing.com/spi/shares/new?url=https%3a%2f%2ftechmuses.github.io%2fblog%2fswitch%2f" onclick="window.open(this.href, 'xing-share', 'width=550,height=435');return false;">
+        <a target="_blank" href="https://www.xing.com/spi/shares/new?url=https%3a%2f%2ftechmuses.github.io%2fblog%2fgoto%2f" onclick="window.open(this.href, 'xing-share', 'width=550,height=435');return false;">
         <i class="fab fa-xing"></i>
         </a>
         </li>        
@@ -103,129 +103,87 @@
                         	
                          <div class="post-top-meta">
                             <div>
-                                <img class="author-thumb" src="/images/akshay.jpeg" alt="Akshay">
+                                <img class="author-thumb" src="/images/adarsh.jpg" alt="Adarsh">
                             </div>
                             <div >
-                                <a target="_blank" class="link-dark">Akshay</a><br>
+                                <a target="_blank" class="link-dark">Adarsh</a><br>
                                 <span class="author-description">
-                                    The Tech Lead<br>
+                                    The Evangelist<br>
                                     <i class="far fa-star"></i>
                                     Nov 11, 2018
                                     <i class="far fa-clock clock"></i>
-                                    7 min read
+                                    6 min read
                                 </span>					
                             </div>
                         </div>			
                                               
                         
-                        <h1 class="posttitle">Taking Control with Switch Statement</h1> 
+                        <h1 class="posttitle">Lets Take Jump With Goto Statement</h1> 
                     </div>
 
                     
                     
-                        <img class="featured-image img-fluid" src="/images/blog/switch.svg" alt="thumbnail for this post">
+                        <img class="featured-image img-fluid" src="/images/blog/goto.jpg" alt="thumbnail for this post">
                     
                     
                     
                     
                     <div class="article-post">
-                        
+                        <p>Have you heard of goto? Goto statements are simple.</p>
 
-<!-- # Taking Control with Switch Statement -->
+<p>Goto statement is also said to be unconditional jump statement as it can jump forward as well as backward but here we are showing example of forward jump but backward jump is similar to foreward jump only.</p>
 
-<p>This is gonna be a good read if you have just started coding recently or are not much familiar with <code>switch Statement</code>.</p>
+<p>You can imagine Goto as taking a jump to somewhere else in your code like in some fantasy terms I can say that teleporting form one point to another point but not random but where you have decided.</p>
 
-<p>If you are a pro or you think you are familiar with <code>switch statement</code> then scroll down to the link at the bottom, you may find something new.</p>
+<p>So first you have to decide where to teleport or jump by making a lable :-</p>
 
-<p>So let us begin, when we begin to learn coding we come across topics like variable assignment, declaration, and control structures, loops and all.</p>
+<p>First, you put a label somewhere:</p>
 
-<p>I believe switch statement would be really confusing topic in control structures, so let’s simplify it</p>
-
-<p>Switch statements are an other way to write if-else  code (but it&rsquo;s limited, you can only switch on integral values, or char value as it works for a single variable)</p>
-
-<p>A thing to note is that C doesn&rsquo;t support switches on strings ,while other languages like Java support it.</p>
-
-<p>The above explanation would become clear with this example</p>
-
-<p>Example:</p>
-
-<pre><code>if (a == 0) {  
-// First case  
-} else if (a == 1) {  
-// Second case  
-} else if (a == 2) {  
-// Third case  
-} else {  
-// Default case  
-}
+<pre><code>int x = 0;
+foo: x += 5;
 </code></pre>
 
-<p>With switches:</p>
+<p>Here,  <code>foo</code>  is a label for the  <code>x += 5;</code>  statement. If you jump to  <code>foo</code>, you jump directly to  <code>x += 5;</code>.</p>
 
-<pre><code>switch (a) {  
-case 0:  
-// First case  
-break;  
-case 1:  
-// Second case  
-break;  
-case 2:  
-// Third case  
-break;  
-default:  
-// Default case  
-break;  
-}
+<p>To jump to  <code>foo</code>, you can do  <code>goto foo;</code>,</p>
+
+<p>For example:</p>
+
+<pre><code>if (x &lt; 8)
+
+goto foo;
 </code></pre>
 
-<p>Note an important thing:</p>
+<p>so here when your code will read <code>if</code> statement and it if will satisfy it then it will jump to our decided</p>
 
-<p><code>default</code> is essentially the same as else in an <code>if - else if - else</code> chain.</p>
+<pre><code>foo:
 
-<p>the <code>break;</code> statements at the end of every case. This means that after the code in that block is done we break out of the switch statement, and resume execution at the next statement after the switch.</p>
-
-<p>If there&rsquo;s no <code>break</code>, it will continue running code line by line. The case statements are simply labels. For instance, in the example below, if a was 2, and as we removed all break statements, the code for statement 1,2, 3,4, and the default case would all run.</p>
-
-<p>If you want to have the same code to execute for multiple cases you can leave the break off, like so:</p>
-
-<pre><code>switch (a) {  
-case 1:  
-case 2:  
-// Code for first and second case  
-break;  
-case 3:  
-case 4:  
-// Code for third and fourth case  
-break;  
-default:  
-// Default case  
-break;  
-}
+x += 5;
 </code></pre>
 
-<p>All the above points are summarised below, take note of this important points while dealing with switch statement.</p>
+<p>so now value of x will be 5 as it was earlier decided as 0 and will add 5 to it as written in goto (foo) statement.</p>
 
-<ul>
-<li><p>The expression in the switch should be a constant value otherwise it
-would not be valid.</p></li>
+<p>generally peoples get confuse between <code>goto</code> statement and switch statement but the difference between them is <code>switch</code> statements are controlled form of <code>goto</code> statements thats why they are known as controlled statements.</p>
 
-<li><p>The Switch statement can work without default statement</p></li>
+<p>Its asctually better to have control in your program as you can direct its flow</p>
 
-<li><p>The break statement is used inside the switch to terminate the
-sequence of code execution, the switch terminates, and the flow of
-control jumps to the next line following the switch statement</p></li>
+<p>The switch body can contain special labels of the form case n or default, where n is a compile-time constant number, and can contain break; statements which jump to the end of the block. When the switch statement is entered, the corresponding case n label is jumped to depending on the value switched on; if none matches, then the default label is jumped to. If there is no default label, the whole statement is skipped.</p>
 
-<li><p>If there&rsquo;s no break, it will continue running code line by line</p></li>
+<p>You might have heard that goto is typically not a good idea in practice, and that&rsquo;s true. switch statements aren&rsquo;t as bad because you&rsquo;re far more limited in what you can do, but you still shouldn&rsquo;t do anything too crazy with them.</p>
 
-<li><p>The default block can be placed anywhere.</p></li>
+<p>Here I have shown you the flowchart of the earlier problem we solved as this will boost your understanding for goto statement.</p>
 
-<li><p>You can write a switch statement inside another switch statement, but
-its not advisable as it can get real messy.</p></li>
-</ul>
+<p>Here if your code goes in if statement and it satisfies it than it will jump back to the previous defined label of foo: and if false comes than there is no problem and your code will continue its actions.</p>
 
-<h4 id="whew-that-was-too-much-of-a-switching-for-a-day-i-hope-you-understood-the-topic">Whew that was too much of a switching for a day. I hope you understood  the topic..</h4>
+<pre><code class="language-mermaid">graph TB
+Z(foo: x+=5)  --&gt; A{if x&lt;8}
+A{if x&lt;8} -- true --&gt; B(goto foo: x+=5)
+B(goto foo:) --&gt; Z(foo: x+=5)
+A{if x&lt;8} -- false--&gt; E(proceed forward)
 
-<p><strong>As I said above, the Pro folks have a look at <a href="https://embeddedgurus.com/stack-overflow/2010/04/efficient-c-tip-12-be-wary-of-switch-statements/">this article</a> you may find something new. If you are beginner then don&rsquo;t read it, you may get confused</strong></p>
+
+
+</code></pre>
 
                     </div>
                     
@@ -238,7 +196,7 @@ its not advisable as it can get real messy.</p></li>
                         </li>
                         
                         <li>
-                        <a href="/tags/switch">switch</a>
+                        <a href="/tags/goto">goto</a>
                         </li>
                         
                         </ul>
@@ -248,10 +206,8 @@ its not advisable as it can get real messy.</p></li>
                     
                     <div class="row PageNavigation d-flex justify-content-between font-weight-bold">
                     
-                        <a class="prev d-block col-md-6" href="/blog/goto/"> &laquo; Lets Take Jump With Goto Statement</a>
                     
-                    
-                        <a class="next d-block col-md-6 text-lg-right" href="/static/imprint/">Imprint &raquo;</a>
+                        <a class="next d-block col-md-6 text-lg-right" href="/blog/switch/">Taking Control with Switch Statement &raquo;</a>
                     
                     <div class="clearfix"></div>
                     </div>
