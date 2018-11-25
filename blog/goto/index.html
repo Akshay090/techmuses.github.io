@@ -171,19 +171,7 @@ x += 5;
 
 <p>You might have heard that goto is typically not a good idea in practice, and that&rsquo;s true. switch statements aren&rsquo;t as bad because you&rsquo;re far more limited in what you can do, but you still shouldn&rsquo;t do anything too crazy with them.</p>
 
-<p>Here I have shown you the flowchart of the earlier problem we solved as this will boost your understanding for goto statement.</p>
-
-<p>Here if your code goes in if statement and it satisfies it than it will jump back to the previous defined label of foo: and if false comes than there is no problem and your code will continue its actions.</p>
-
-<pre><code class="language-mermaid">graph TB
-Z(foo: x+=5)  --&gt; A{if x&lt;8}
-A{if x&lt;8} -- true --&gt; B(goto foo: x+=5)
-B(goto foo:) --&gt; Z(foo: x+=5)
-A{if x&lt;8} -- false--&gt; E(proceed forward)
-
-
-
-</code></pre>
+<p>If your code goes in if statement and it satisfies it than it will jump back to the previous defined label of foo: and if false comes than there is no problem and your code will continue its actions.</p>
 
                     </div>
                     
