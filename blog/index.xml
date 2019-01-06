@@ -7,10 +7,28 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>techmuses - All rights reserved</copyright>
-    <lastBuildDate>Wed, 07 Nov 2018 11:40:11 +0200</lastBuildDate>
+    <lastBuildDate>Mon, 07 Jan 2019 00:15:05 +0530</lastBuildDate>
     
 	<atom:link href="https://techmuses.github.io/blog/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>How to use V.S Code like a pro?</title>
+      <link>https://techmuses.github.io/blog/using-vsc/</link>
+      <pubDate>Mon, 07 Jan 2019 00:15:05 +0530</pubDate>
+      
+      <guid>https://techmuses.github.io/blog/using-vsc/</guid>
+      <description>How to use V.S Code like a pro? This is a Kick Starter for all the newbies who would like to use V.S Code like a pro, also to all those experienced developers to increase their productivity.</description>
+    </item>
+    
+    <item>
+      <title>What is Function Overiding Problem in C&#43;&#43; and how to Solve?</title>
+      <link>https://techmuses.github.io/blog/function-or-cpp/</link>
+      <pubDate>Fri, 07 Dec 2018 11:40:11 +0200</pubDate>
+      
+      <guid>https://techmuses.github.io/blog/function-or-cpp/</guid>
+      <description>First Let Us Understand what is function overriding problem! Inheritance in C++ Inheritance allows software developers to derive a new class from the existing class.</description>
+    </item>
     
     <item>
       <title>Lets Take Jump With Goto Statement</title>
@@ -30,15 +48,6 @@ Goto statement is also said to be unconditional jump statement as it can jump fo
       <guid>https://techmuses.github.io/blog/switch/</guid>
       <description>This is gonna be a good read if you have just started coding recently or are not much familiar with switch Statement.
 If you are a pro or you think you are familiar with switch statement then scroll down to the link at the bottom, you may find something new.</description>
-    </item>
-    
-    <item>
-      <title>What is Function Overiding Problem in C&#43;&#43; and how to Solve?</title>
-      <link>https://techmuses.github.io/blog/function-or-cpp/</link>
-      <pubDate>Wed, 07 Nov 2018 11:40:11 +0200</pubDate>
-      
-      <guid>https://techmuses.github.io/blog/function-or-cpp/</guid>
-      <description>First Let Us Understand what is function overriding problem! Inheritance in C++ Inheritance allows software developers to derive a new class from the existing class.</description>
     </item>
     
   </channel>

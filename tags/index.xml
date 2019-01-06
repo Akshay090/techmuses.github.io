@@ -7,7 +7,7 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>techmuses - All rights reserved</copyright>
-    <lastBuildDate>Wed, 07 Nov 2018 11:40:11 +0200</lastBuildDate>
+    <lastBuildDate>Fri, 07 Dec 2018 11:40:11 +0200</lastBuildDate>
     
 	<atom:link href="https://techmuses.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     
@@ -15,7 +15,7 @@
     <item>
       <title>Coding</title>
       <link>https://techmuses.github.io/tags/coding/</link>
-      <pubDate>Wed, 07 Nov 2018 11:40:11 +0200</pubDate>
+      <pubDate>Fri, 07 Dec 2018 11:40:11 +0200</pubDate>
       
       <guid>https://techmuses.github.io/tags/coding/</guid>
       <description></description>
@@ -24,7 +24,7 @@
     <item>
       <title>Cpp</title>
       <link>https://techmuses.github.io/tags/cpp/</link>
-      <pubDate>Wed, 07 Nov 2018 11:40:11 +0200</pubDate>
+      <pubDate>Fri, 07 Dec 2018 11:40:11 +0200</pubDate>
       
       <guid>https://techmuses.github.io/tags/cpp/</guid>
       <description></description>
@@ -40,11 +40,29 @@
     </item>
     
     <item>
+      <title>Productivity</title>
+      <link>https://techmuses.github.io/tags/productivity/</link>
+      <pubDate>Mon, 07 Jan 2019 00:15:05 +0530</pubDate>
+      
+      <guid>https://techmuses.github.io/tags/productivity/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Switch</title>
       <link>https://techmuses.github.io/tags/switch/</link>
       <pubDate>Wed, 07 Nov 2018 11:40:11 +0200</pubDate>
       
       <guid>https://techmuses.github.io/tags/switch/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Vs Code</title>
+      <link>https://techmuses.github.io/tags/vs-code/</link>
+      <pubDate>Mon, 07 Jan 2019 00:15:05 +0530</pubDate>
+      
+      <guid>https://techmuses.github.io/tags/vs-code/</guid>
       <description></description>
     </item>
     
